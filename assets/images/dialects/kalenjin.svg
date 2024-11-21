@@ -1,0 +1,27 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Kalenjin Pattern -->
+        <pattern id="kalenjin-pattern" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+            <path d="M0 15L30 15M15 0L15 30" stroke="#2F4F4F" stroke-width="1" opacity="0.2"/>
+            <circle cx="15" cy="15" r="3" fill="#006400" opacity="0.2"/>
+        </pattern>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="200" height="200" fill="url(#kalenjin-pattern)"/>
+    
+    <!-- Running Track (representing athletics) -->
+    <path d="M30 100C50 70 150 70 170 100S150 130 100 130S50 130 30 100Z" 
+          fill="#B8860B" opacity="0.3"/>
+    
+    <!-- Runner Silhouette -->
+    <path d="M90 90C95 85 105 85 110 90L105 110L95 110Z" fill="#000"/>
+    <circle cx="100" cy="80" r="8" fill="#000"/>
+    
+    <!-- Traditional Spears -->
+    <path d="M60 50L65 90L55 90Z" fill="#8B4513"/>
+    <path d="M140 50L145 90L135 90Z" fill="#8B4513"/>
+    
+    <!-- Hills Representation -->
+    <path d="M0 150Q50 100 100 150T200 150" fill="#228B22" opacity="0.3"/>
+</svg> 

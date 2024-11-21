@@ -1,0 +1,21 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern id="emblem-pattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+            <!-- Simplified Kenyan Emblem -->
+            <g fill="currentColor" opacity="0.1">
+                <!-- Shield -->
+                <path d="M25,5 L45,5 L45,45 L35,40 L25,45 Z"/>
+                <!-- Spears -->
+                <path d="M20,0 L22,15 L18,15 Z"/>
+                <path d="M48,0 L50,15 L46,15 Z"/>
+                <!-- Traditional Pattern -->
+                <circle cx="35" cy="20" r="3"/>
+                <circle cx="35" cy="30" r="3"/>
+                <rect x="30" y="15" width="10" height="2"/>
+                <rect x="30" y="25" width="10" height="2"/>
+                <rect x="30" y="35" width="10" height="2"/>
+            </g>
+        </pattern>
+    </defs>
+    <rect width="100" height="100" fill="url(#emblem-pattern)"/>
+</svg> 

@@ -1,0 +1,52 @@
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @media (prefers-color-scheme: dark) {
+            .primary-text { fill: #ffffff; }
+            .kenya-red { fill: #ff0000; }
+            .kenya-green { fill: #00ff00; }
+            .kenya-black { fill: #ffffff; }
+        }
+        @media (prefers-color-scheme: light) {
+            .primary-text { fill: #000000; }
+            .kenya-red { fill: #be0027; }
+            .kenya-green { fill: #00a04a; }
+            .kenya-black { fill: #000000; }
+        }
+        .letter { font-family: 'Arial Black', sans-serif; font-weight: bold; }
+        .animate-on-hover:hover {
+            animation: bounce 0.5s;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+    </style>
+
+    <!-- Background Shield -->
+    <path d="M10 5L190 5L190 45L100 55L10 45Z" 
+          fill="none" 
+          stroke="currentColor" 
+          stroke-width="2"
+          class="primary-text"/>
+
+    <!-- Text "Jifunze" -->
+    <g class="animate-on-hover">
+        <text x="30" y="35" class="letter kenya-red" font-size="28">J</text>
+        <text x="45" y="35" class="letter primary-text" font-size="28">ifunze</text>
+    </g>
+
+    <!-- Text "KE" with flag colors -->
+    <g class="animate-on-hover">
+        <text x="130" y="35" class="letter kenya-red" font-size="28">K</text>
+        <text x="150" y="35" class="letter kenya-green" font-size="28">E</text>
+    </g>
+
+    <!-- Decorative Elements -->
+    <circle cx="20" cy="25" r="3" class="kenya-red"/>
+    <circle cx="180" cy="25" r="3" class="kenya-green"/>
+    
+    <!-- Small Shield Icon -->
+    <path d="M95 15L105 15L105 30L100 35L95 30Z" 
+          class="kenya-black" 
+          fill="currentColor"/>
+</svg> 

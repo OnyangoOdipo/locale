@@ -1,0 +1,25 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Kamba Pattern -->
+        <pattern id="kamba-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M0 20h40M20 0v40" stroke="#8B4513" stroke-width="1" opacity="0.2"/>
+            <circle cx="20" cy="20" r="4" fill="#DAA520" opacity="0.2"/>
+        </pattern>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="200" height="200" fill="url(#kamba-pattern)"/>
+    
+    <!-- Traditional Basket -->
+    <path d="M60 80C60 60 140 60 140 80L130 140H70L60 80Z" 
+          fill="#8B4513" stroke="#000" stroke-width="2"/>
+    
+    <!-- Basket Weaving Pattern -->
+    <path d="M70 90L130 90M70 100L130 100M70 110L130 110M70 120L130 120" 
+          stroke="#DAA520" stroke-width="3" opacity="0.6"/>
+    
+    <!-- Decorative Beads -->
+    <circle cx="80" cy="70" r="5" fill="#DAA520"/>
+    <circle cx="100" cy="70" r="5" fill="#DAA520"/>
+    <circle cx="120" cy="70" r="5" fill="#DAA520"/>
+</svg> 

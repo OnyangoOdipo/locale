@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Kikuyu Pattern -->
+        <pattern id="kikuyu-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+            <path d="M0 10h20M10 0v20" stroke="#be0027" stroke-width="1" opacity="0.3"/>
+            <circle cx="10" cy="10" r="2" fill="#00a04a" opacity="0.3"/>
+        </pattern>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="200" height="200" fill="url(#kikuyu-pattern)"/>
+    
+    <!-- Traditional Shield -->
+    <path d="M100 30L160 50V150L100 180L40 150V50Z" 
+          fill="#be0027" stroke="#000" stroke-width="2"/>
+    
+    <!-- Shield Pattern -->
+    <path d="M100 50L140 65V135L100 155L60 135V65Z" 
+          fill="#00a04a" stroke="#000" stroke-width="1"/>
+    
+    <!-- Traditional Spears -->
+    <path d="M80 20L85 60L75 60Z" fill="#000"/>
+    <path d="M120 20L125 60L115 60Z" fill="#000"/>
+    
+    <!-- Decorative Beads -->
+    <circle cx="100" cy="80" r="5" fill="#fff"/>
+    <circle cx="100" cy="100" r="5" fill="#fff"/>
+    <circle cx="100" cy="120" r="5" fill="#fff"/>
+</svg> 

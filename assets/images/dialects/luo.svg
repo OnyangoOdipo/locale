@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Luo Wave Pattern -->
+        <pattern id="luo-pattern" x="0" y="0" width="40" height="20" patternUnits="userSpaceOnUse">
+            <path d="M0 10C10 10 10 20 20 20S30 10 40 10" 
+                  stroke="#0066cc" fill="none" stroke-width="1" opacity="0.2"/>
+        </pattern>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="200" height="200" fill="url(#luo-pattern)"/>
+    
+    <!-- Lake Victoria Representation -->
+    <path d="M30 100C50 80 150 80 170 100S150 140 100 140S50 120 30 100Z" 
+          fill="#0066cc" opacity="0.3"/>
+    
+    <!-- Traditional Fishing Boat -->
+    <path d="M70 90L130 90L120 110L80 110Z" 
+          fill="#8b4513" stroke="#000" stroke-width="2"/>
+    
+    <!-- Fish Symbol -->
+    <path d="M90 70C110 70 110 90 130 90C110 90 110 110 90 110C70 110 70 90 50 90C70 90 70 70 90 70Z" 
+          fill="#fff" stroke="#000" stroke-width="1"/>
+    
+    <!-- Decorative Elements -->
+    <circle cx="100" cy="150" r="20" fill="#ffd700" opacity="0.5"/>
+    <path d="M85 150L115 150M100 135L100 165" 
+          stroke="#000" stroke-width="2"/>
+</svg> 
